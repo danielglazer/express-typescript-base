@@ -1,0 +1,44 @@
+{
+  "name": "express-typescript-base",
+  "version": "1.0.0",
+  "description": "express-typescript-project-structure-demo",
+  "main": "src/main.ts",
+  "scripts": {
+    "start:dev": "ts-node-dev ./src/main.ts",
+    "start": "tsc && node ./dist/main.js",
+    "test": "test",
+    "lint": "eslint . --ext .ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielglazer/express-typescript-base.git"
+  },
+  "keywords": [
+    "express",
+    "typescript"
+  ],
+  "author": "Daniel Glazer",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/danielglazer/express-typescript-base/issues"
+  },
+  "homepage": "https://github.com/danielglazer/express-typescript-base#readme",
+  "devDependencies": {
+    "@types/dotenv-safe": "^8.1.2",
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.8",
+    "@types/uuid": "^8.3.4",
+    "@typescript-eslint/eslint-plugin": "^5.9.0",
+    "@typescript-eslint/parser": "^5.9.0",
+    "eslint": "^8.6.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.2",
+    "uuid": "^8.3.2"
+  }
+}
